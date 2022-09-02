@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.heading{
+    margin-top: 10vh;
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    margin-left: 15%;
+    height: 8vh;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.task{
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.list{
+    font-size: 60px;
+    font-family: Segoe UI;
+    font-weight: lighter;
+}
+
+.addItem{
+    height: 8vh;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.addItem p{
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contents{
+    font-size: 35px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    font-family: Segoe UI;
+    font-weight: lighter;
+    opacity: 0.7;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+}
+
+.additem{
+    z-index: 9;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background: white;
+}
+
+.stack-top{
+    z-index: 9;           
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8; 
+    padding: 10px 5px 5px 5px;
+    width: 30%;
+    height: 180px;
+    margin-top: 300px;
+    margin-left: 500px;
+    font-size: 25px;
+    color: red;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    display: none;
+}
+
+input[type=text] {
+width: 80%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid black;
+border-radius: 4px;
+}
+
+
+.btn {
+align-items: center;
+background-color: rgb(241, 35, 35);
+border-radius: 24px;
+border-style: none;
+box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+color: white;
+cursor: pointer;
+display: inline-flex;
+font-size: 20px;
+height: 40px;
+width: 25%;
+letter-spacing: .25px;
+padding: 4px 22px;
+position: relative;
+text-align: center;
+margin-top: 10px;
+}
+
+.btn p{
+    text-align: center;
+    margin-left: 12%;
+}
+
+.inner {
+    border: 5px solid green; 
+    margin: 10px; 
+    width: 250px; 
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.head{
+    color: red;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+/* .hrStyle{
+    height:1.5px;
+    border-width:0;
+    color:gray;
+    background-color:black
+} */
+
+.check-button{
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+
+.trash-button{
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.check-button img{
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom:10px;
+    right: 50px;
+}
+
+.trash-button img{
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.trash-button {
+    border-radius: 0 10px 10px 0;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+
+button, .check-button, .trash-button {
+    cursor: pointer;
+}
+
+.paraText{
+    color: black;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.container-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-div p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnStyle{
+    background-color: #00a5ec;
+    color: white;
+    font-size: 10px;
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    margin-left: -20px;
+    margin-right: auto;
+    /* vertical-align: middle; */
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+}
