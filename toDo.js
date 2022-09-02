@@ -45,9 +45,7 @@ $(function() {
 function createNewCard(){
 
   $("#wipe").hide();
-  // const data = document.getElementById("jobName");
-  // const shownProp = document.getElementById("cont").tagName;
-
+ 
     // start creating element div
       const div = document.createElement('div');
       $(div).addClass("inner");
