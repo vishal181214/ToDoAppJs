@@ -234,3 +234,8 @@ button, .check-button, .trash-button {
     margin-bottom: auto;
     border: none;
 }
+
+#blurContent.active{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}

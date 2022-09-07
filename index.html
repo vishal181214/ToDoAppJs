@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="blurContent">
         <div class="heading">
             <div class="name"><span class="task">Task</span><span class="list">List</span></div>
             <div class="addItem">
@@ -20,20 +20,21 @@
         <div class="info">
             
             <div class="contents" id="cont"><span id="wipe">No Items in the todo list</span></div>
-            <div class="additem stack-top" id="item">
-                <label class="inp">Add New List</label><br>
-                <input type="text" name="itemName" id="jobName" value=""><br>
-                <button type="submit" class="btn" id="add"><p>Add</p></button>
-                <button type="" class="btn algn" id="down"><p class="algn">Close</p></button>
-            </div>
-            <div class="additem stack-top" id="item2">
-                <label class="inp">Add New List</label><br>
-                <input type="text" name="itemName" id="pText"  value=""><br>
-                <button type="submit" class="btn" id="addSub"><p>Add</p></button>
-                <button type="" class="btn algn" id="downSub"><p class="algn">Close</p></button>
-            </div>
+        
         </div>
-        <script src="./toDo.js"></script>
     </div>
+    <div class="additem stack-top" id="item">
+        <label class="inp">Add New List</label><br>
+        <input type="text" name="itemName" id="jobName" value=""><br>
+        <button type="submit" class="btn" id="add"><p>Add</p></button>
+        <button type="" class="btn algn" id="down"><p class="algn">Close</p></button>
+    </div>
+    <div class="additem stack-top" id="item2">
+        <label class="inp">Add New List</label><br>
+        <input type="text" name="itemName" id="pText"  value=""><br>
+        <button type="submit" class="btn" id="addSub"><p>Add</p></button>
+        <button type="" class="btn algn" id="downSub"><p class="algn">Close</p></button>
+    </div>
+    <script src="./toDo.js"></script>
 </body>
 </html>
